@@ -1,29 +1,18 @@
-﻿# Backend Deployment API
+# Backend Deployment API
 
 ## 🚀 Live URL
 https://backend-deployment-api.onrender.com/health
 
-## ✅ Endpoints
-- `/` → Home
-- `/health` → Health check
-- `/docs` → Swagger UI
-
 ## 🛠 Tech Stack
-- Python (FastAPI)
+- FastAPI
 - Uvicorn
-- Render (Deployment)
+- Render
 
-## 📦 Setup Instructions
-```bash
-pip install -r requirements.txt
+## 📦 Run Locally
+pip install -r requirements.txt  
 uvicorn main:app --reload
 
-
----
-
-### 3. Save file → then commit
-
-```bash
-git add README.md
-git commit -m "updated README with project details"
-git push
+## ✅ Endpoints
+- / → Home
+- /health → Health check
+- /docs → API documentation
